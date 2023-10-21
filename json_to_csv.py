@@ -28,7 +28,7 @@ with open('C:/Users/gusta/Documents/FREELA/brquad-gte-dev-v2.0.json',encoding='u
                     human_ans_indices = f"({answer_start}, {answer_end})"
 
                     # adiciona resposta ao dataframe
-                    new_data = {"question": question, "human_ans_indices": human_ans_indices, "review": context, "human_ans_spans": answer}
+                    new_data = {"pergunta": question, "indices": human_ans_indices, "contexto": context, "resposta": answer}
                     df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)
 
 
