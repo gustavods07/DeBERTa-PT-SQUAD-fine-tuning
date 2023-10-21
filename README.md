@@ -18,5 +18,8 @@ Para facilitar a manipulação dos dados, esse JSON é transformado em uma plani
 A formatação das colunas pode ser observada a seguir 
 | pergunta| indices | contexto  | resposta | 
 | ------------- | ----------------- | ------------- | ------------- |
-| "Aonde vivia elias"  |     (15, 47)      | "Há muito tempo, em uma pequena vila à beira-mar, vivia um pescador solitário chamado Elias"   | "em uma pequena vila à beira-mar"  |
+| "Aonde vivia elias?"  |     (15, 47)      | "Há muito tempo, em uma pequena vila à beira-mar, vivia um pescador solitário chamado Elias"   | "em uma pequena vila à beira-mar"  |
+
+
+Ao final do script, o dataframe é dividido em duas planilhas, uma para treino e outra para teste, seguindo a proporção 70/30.
 
