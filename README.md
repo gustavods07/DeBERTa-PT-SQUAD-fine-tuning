@@ -21,5 +21,5 @@ A formatação das colunas pode ser observada a seguir
 | "Aonde vivia elias?"  |     (15, 47)      | "Há muito tempo, em uma pequena vila à beira-mar, vivia um pescador solitário chamado Elias"   | "em uma pequena vila à beira-mar"  |
 
 
-Ao final do script, o dataframe é dividido em duas planilhas, uma para treino e outra para teste, seguindo a proporção 70/30.
+Ao final do script, o dataframe é dividido em duas planilhas, uma para treino e outra para validação, seguindo a proporção 70/30.
 
