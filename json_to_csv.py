@@ -32,9 +32,11 @@ with open('C:/Users/gusta/Documents/FREELA/brquad-gte-dev-v2.0.json',encoding='u
                     df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)
 
 
+# retirar duplicatas oriiundas do documento JSON
 df = df.drop_duplicates()
 
-
+# embaralhar linhas do dataframe
+df = df.sample(frac = 1)
 
 
 split = len(df)
