@@ -13,7 +13,7 @@ O documento SQUAD original possui formatação JSON para encadear as perguntas e
 _DOCUMENTO > CONTEXTOS > PERGUNTAS > RESPOSTAS._
 
 
-Para facilitar a manipulação dos dados, esse JSON é transformado em uma planilha CSV através do script _json-to-csv.py_ .
+Para facilitar a manipulação dos dados, esse JSON é transformado em uma planilha CSV através do script _json_to_csv.py_ .
 
 A formatação das colunas pode ser observada a seguir 
 | pergunta| indices | contexto  | resposta | 
