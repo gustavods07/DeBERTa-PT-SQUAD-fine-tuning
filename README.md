@@ -1,14 +1,14 @@
 # Realizando fine-tuning para responder perguntas com base em um modelo DeBERTa
 **DeBERTa fine-tuning (dataset SQUAD em português)**
 
-O objetivo do projeto é realizar o fine-tuning de um modelo pré-treinado para responder perguntas baseado na arquitetura DeBERTa (Decoding-enhanced BERT with disentangled attention)
+O objetivo do projeto é realizar o fine-tuning de um modelo pré-treinado (microsoft/deberta-v3-base) para responder perguntas com base na arquitetura DeBERTa (Decoding-enhanced BERT with disentangled attention) utilizando um documento SQuAD¹ em portugês do Brasil (traduzido pelo usuário @piEsposito e encontrado em https://github.com/piEsposito/br-quad-2.0) para comparar as métricas de exact-match e F1-score com outro modelo (deepset/deberta-v3-base-squad2), fruto de fine-tuning utilizando um documento SQuAD 2.0 em inglês.
 
-O documento SQUAD 2.0 (Stanford Question Answering Dataset) utilizado para fine-tuning foi traduzido pelo usuário @piEsposito e pode ser encontrado em https://github.com/piEsposito/br-quad-2.0
+ _¹(Stanford Question Answering Dataset)_
 
 **Pré-processamento do Dataset**
 
 
-O documento SQUAD original possui formatação JSON para encadear as perguntas e suas respectivas respostas de acordo com a estrutura simplificada a seguir:
+O documento SQuAD pt-br original possui formatação JSON para encadear as perguntas e suas respectivas respostas de acordo com a estrutura simplificada a seguir:
 
 _DOCUMENTO > CONTEXTOS > PERGUNTAS > RESPOSTAS._
 
