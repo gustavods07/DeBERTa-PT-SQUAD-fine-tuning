@@ -15,7 +15,7 @@ _DOCUMENTO > CONTEXTOS > PERGUNTAS > RESPOSTAS._
 
 Para facilitar a manipulação dos dados, esse JSON é transformado em uma planilha CSV através do script _json_to_csv.py_ .
 
-A formatação das colunas pode ser observada a seguir 
+A formatação das colunas pode ser observada no exemplo a seguir 
 | pergunta| indices | contexto  | resposta | 
 | ------------- | ----------------- | ------------- | ------------- |
 | "Aonde vivia elias?"  |     (15, 47)      | "Há muito tempo, em uma pequena vila à beira-mar, vivia um pescador solitário chamado Elias"   | "em uma pequena vila à beira-mar"  |
