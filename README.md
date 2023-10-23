@@ -6,7 +6,7 @@ Os objetivos do projeto são:
 - Comparar as métricas de exact-match e F1-score do modelo obtido com as métricas de outro modelo fruto de fine-tuning utilizando um documento SQuAD 2.0 em inglês (deepset/deberta-v3-base-squad2).
 
   
- _¹(Stanford Question Answering Dataset)_
+ _¹ (Stanford Question Answering Dataset)_
 
 
 
@@ -29,4 +29,11 @@ A formatação das colunas pode ser observada no exemplo a seguir
 
 
 Ao final do script, o dataframe é dividido em duas planilhas, uma para treino e outra para validação, seguindo a proporção 70/30.
+
+**Fine-Tuning**
+
+
+O script _deberta_fine_tune.py_ foi produzido com adaptações de um artigo de referência² e é responsável por tratar o dataset, realizar o treinamento e comparar as métricas de exact-match e F1-score antes e depois do fine-tuning.
+
+_²https://medium.com/@xiaohan_63326/fine-tune-fine-tuning-bert-for-question-answering-qa-task-5c29e3d518f1_
 
