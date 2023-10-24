@@ -35,6 +35,10 @@ Ao final do script, o dataframe é dividido em duas planilhas, uma para treino e
 
 O script _deberta_fine_tune.py_ foi produzido com adaptações de um artigo de referência² e é responsável por tratar o dataset, realizar o treinamento e comparar as métricas de exact-match e F1-score antes e depois do fine-tuning. Ao final do treinamento, o modelo é salvo localmente e pode ser utilizado via pipeline. A _Tabela 1_ mostra os principais parâmetros para o tokenizer, enquanto a _Tabela 2_ exibe os principais parâmetros para o treinamento.
 
+
+_²https://medium.com/@xiaohan_63326/fine-tune-fine-tuning-bert-for-question-answering-qa-task-5c29e3d518f1_
+
+
 _Tabela 1 - Principais parâmetros para o tokenizer._
 | Parâmetro| Valor |
 | ------------- | ----------------- |
@@ -58,5 +62,5 @@ _Tabela 2 - Principais parâmetros para o treinamento._
 
 
 
-_²https://medium.com/@xiaohan_63326/fine-tune-fine-tuning-bert-for-question-answering-qa-task-5c29e3d518f1_
+
 
